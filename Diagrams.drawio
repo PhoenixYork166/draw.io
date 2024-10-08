@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.15" pages="6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17" pages="7">
   <diagram name="e-shop" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="697" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -561,6 +561,89 @@
         </mxCell>
         <mxCell id="mzxAO2Za-9VD8A6owMZj-4" value="MongoDB is Schemaless!" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;color=#FFA500;" vertex="1" parent="1">
           <mxGeometry x="98.5" y="214" width="129" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="MQrSWuvNCCzyoFaIdmBq" name="3.MongoDB-writeConcern">
+    <mxGraphModel dx="1163" dy="1257" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dNigb-Tp1lpoMohZQNvg-1" value="MongoDB writeConcern" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="177.62" y="-95" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XYfVONf5cr0-sxBTFais-1" value="Client (mongosh)" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#52c90e" vertex="1" parent="1">
+          <mxGeometry x="-96" y="-25" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4kOEC1jMKKc-K0xOuUSO-1" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="79" y="4.5" as="sourcePoint" />
+            <mxPoint x="139" y="5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="203" y="4.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4kOEC1jMKKc-K0xOuUSO-2" value="MongoDB Server (mongod)" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#52c90e" vertex="1" parent="1">
+          <mxGeometry x="138" y="-25" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4kOEC1jMKKc-K0xOuUSO-3" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="315" y="4.5" as="sourcePoint" />
+            <mxPoint x="375" y="5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="439" y="4.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4kOEC1jMKKc-K0xOuUSO-4" value="Storage Engine" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#52c90e" vertex="1" parent="1">
+          <mxGeometry x="375" y="-25" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ceo3AvdBiMRk8uM6p9wR-1" value="Memory" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#52c90e" vertex="1" parent="1">
+          <mxGeometry x="375" y="66" width="73" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ceo3AvdBiMRk8uM6p9wR-2" value="Data on Disk" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#52c90e" vertex="1" parent="1">
+          <mxGeometry x="482" y="66" width="68" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ceo3AvdBiMRk8uM6p9wR-3" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4kOEC1jMKKc-K0xOuUSO-4" target="Ceo3AvdBiMRk8uM6p9wR-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="181" y="214" as="sourcePoint" />
+            <mxPoint x="231" y="164" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ceo3AvdBiMRk8uM6p9wR-4" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.553;exitY=0.983;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4kOEC1jMKKc-K0xOuUSO-4" target="Ceo3AvdBiMRk8uM6p9wR-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="471" y="39" as="sourcePoint" />
+            <mxPoint x="422" y="76" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ceo3AvdBiMRk8uM6p9wR-5" value="e.g. insertOne()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-24" y="36" width="132" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Eom1mALQL57BaeT5rP-a-1" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ceo3AvdBiMRk8uM6p9wR-5">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="163" y="190" as="sourcePoint" />
+            <mxPoint x="120" y="225" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="103" y="225" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_vLupN_qm5JOYlyBdf1X-1" value="{ w: 1, j: undefined }&#xa;&#xa;{ w: numInstanceAck, j: journal }" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFA500" vertex="1" parent="1">
+          <mxGeometry x="121" y="203" width="213.25" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_vLupN_qm5JOYlyBdf1X-2" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="468" y="36" as="sourcePoint" />
+            <mxPoint x="489" y="195" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="529" y="195" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_vLupN_qm5JOYlyBdf1X-3" value="Journal (&quot;Todos&quot;) in Storage&#xa;&#xa;We call it &quot;compass&quot; in SQL" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFA500" vertex="1" parent="1">
+          <mxGeometry x="491" y="171" width="187" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
