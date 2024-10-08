@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17" pages="8">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17" pages="9">
   <diagram name="e-shop" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="697" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -736,6 +736,41 @@
         </mxCell>
         <mxCell id="B1vOna4JC1Mh7XlTmY-L-4" value="Saved as a Whole" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFA500" vertex="1" parent="1">
           <mxGeometry x="358" y="152" width="147" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B1vOna4JC1Mh7XlTmY-L-5" value="MongoDB CRUD Operations are Atomic on Document Level&#xa;(including Embedded Documents)" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#02D8E9" vertex="1" parent="1">
+          <mxGeometry x="-46" y="238" width="551" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="0zkm-bvEwgM7pZrjXl8c" name="5.Query-Selectors">
+    <mxGraphModel dx="687" dy="1171" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KAnQLwHNiX_Q_T7KkzA5-1" value="Query Selectors &amp;amp; Projection Operators" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="177.62" y="-95" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ppCjui4roWM1yVgbKK_f-1" value="Query Selectors" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#4c4cf5" vertex="1" parent="1">
+          <mxGeometry x="72" y="-40" width="315" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ppCjui4roWM1yVgbKK_f-2" value="Comparison" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#02D8E9" vertex="1" parent="1">
+          <mxGeometry x="72" y="38" width="133" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ppCjui4roWM1yVgbKK_f-3" value="Evaluation" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#02D8E9" vertex="1" parent="1">
+          <mxGeometry x="254" y="38" width="133" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ppCjui4roWM1yVgbKK_f-4" value="Logical" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#02D8E9" vertex="1" parent="1">
+          <mxGeometry x="72" y="116" width="133" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ppCjui4roWM1yVgbKK_f-5" value="Array" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#02D8E9" vertex="1" parent="1">
+          <mxGeometry x="256" y="116" width="133" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ppCjui4roWM1yVgbKK_f-6" value="Element" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#02D8E9" vertex="1" parent="1">
+          <mxGeometry x="72" y="194" width="133" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ppCjui4roWM1yVgbKK_f-7" value="Comments" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#02D8E9" vertex="1" parent="1">
+          <mxGeometry x="256" y="194" width="133" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
