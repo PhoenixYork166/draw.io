@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17" pages="11">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17" pages="12">
   <diagram name="e-shop" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="697" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -678,7 +678,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="OuF2e9O5FLfrAfBDIFQj" name="4.Atomicity">
+  <diagram id="OuF2e9O5FLfrAfBDIFQj" name="4.MongoDB-Atomicity">
     <mxGraphModel dx="1087" dy="1171" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -743,7 +743,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="0zkm-bvEwgM7pZrjXl8c" name="5.Query-Selectors">
+  <diagram id="0zkm-bvEwgM7pZrjXl8c" name="5.MongoDB-Query-Selectors">
     <mxGraphModel dx="687" dy="1171" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -778,33 +778,33 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="mRYtSST3ioYBUu0RB-_t" name="6.Projection-Operators">
+  <diagram id="mRYtSST3ioYBUu0RB-_t" name="6.MongoDB-Projection-Operators">
     <mxGraphModel dx="687" dy="1171" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="iss2VyCUlOFVopkFfRpp-1" value="Projection Operators" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
-          <mxGeometry x="177.62" y="-95" width="100" height="40" as="geometry" />
+          <mxGeometry x="177.62" y="-87" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IHnH7OqhqAOx7ZdDFb4x-1" value="Projection Operators" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFA500" vertex="1" parent="1">
-          <mxGeometry x="111" y="-51" width="235" height="60" as="geometry" />
+          <mxGeometry x="111" y="-43" width="235" height="60" as="geometry" />
         </mxCell>
         <mxCell id="u9dqQ0xBYXrMHizL2AvR-1" value="$" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#fcda9a" vertex="1" parent="1">
-          <mxGeometry x="110.12" y="28" width="235" height="60" as="geometry" />
+          <mxGeometry x="110.12" y="36" width="235" height="60" as="geometry" />
         </mxCell>
         <mxCell id="u9dqQ0xBYXrMHizL2AvR-2" value="$elemMatch" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#fcda9a" vertex="1" parent="1">
-          <mxGeometry x="111" y="107" width="235" height="60" as="geometry" />
+          <mxGeometry x="111" y="115" width="235" height="60" as="geometry" />
         </mxCell>
         <mxCell id="u9dqQ0xBYXrMHizL2AvR-3" value="$meta" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#fcda9a" vertex="1" parent="1">
-          <mxGeometry x="111" y="186" width="235" height="60" as="geometry" />
+          <mxGeometry x="111" y="194" width="235" height="60" as="geometry" />
         </mxCell>
         <mxCell id="u9dqQ0xBYXrMHizL2AvR-4" value="$slice" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#fcda9a" vertex="1" parent="1">
-          <mxGeometry x="111" y="265" width="235" height="60" as="geometry" />
+          <mxGeometry x="111" y="273" width="235" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="OrAQigQ0T3T9m2sp6SH3" name="41-Data-Schemas-and-Data-Modelling">
+  <diagram id="OrAQigQ0T3T9m2sp6SH3" name="41-MongoDB-Data-Schemas-and-Data-Modelling">
     <mxGraphModel dx="687" dy="1171" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -940,6 +940,29 @@
         </mxCell>
         <mxCell id="HrDg2ldPsYnNkcz7_RY6-20" value="Defines whether you should optimize for easy writing" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFA500" vertex="1" parent="1">
           <mxGeometry x="546" y="310" width="166" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="e2lBMe6d2RKnN5-UP06W" name="Page-12">
+    <mxGraphModel dx="1087" dy="1171" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sh2d_7MgAgwCgpJm2SAb-1" value="Relations - Options" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="118" y="-87" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PCMBZFbpsLT8a_1AZT4e-1" value="Embedded Documents" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#7575fa" vertex="1" parent="1">
+          <mxGeometry x="-49" y="-40" width="198" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YZHYVFmwZ0m4hZI9CERu-1" value="References" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFA500" vertex="1" parent="1">
+          <mxGeometry x="218" y="-40" width="198" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YZHYVFmwZ0m4hZI9CERu-2" value="customers: {&#xa;    username: &#39;user1&#39;,&#xa;    age: 50,&#xa;    address: {&#xa;        street: &#39;Second Street&#39;,&#xa;        city: &#39;city1&#39;&#xa;    }&#xa;}" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#8b8bfc;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-49" y="43" width="198" height="245" as="geometry" />
+        </mxCell>
+        <mxCell id="YZHYVFmwZ0m4hZI9CERu-3" value="Embedded Documents" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFA500" vertex="1" parent="1">
+          <mxGeometry x="218" y="43" width="198" height="245" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
