@@ -1108,6 +1108,27 @@
         <mxCell id="yg3rRQM38uzqvlZKniS0-1" value="HTT Request" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="49" y="204" width="132" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="GxpfkPIe2f0EoWSO1Xcm-1" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#FFA500;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="435" y="301" as="sourcePoint" />
+            <mxPoint x="435" y="169" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="416" y="217" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GxpfkPIe2f0EoWSO1Xcm-2" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;strokeColor=#FFA500;endSize=8;curved=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="435" y="301" as="sourcePoint" />
+            <mxPoint x="267" y="301" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3X-a3T7P2duEBrBGrkCg-1" value="Cookies" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFA500" vertex="1" parent="1">
+          <mxGeometry x="339" y="105" width="198" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3X-a3T7P2duEBrBGrkCg-2" value="Set via Response Header" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="445" y="204" width="132" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
