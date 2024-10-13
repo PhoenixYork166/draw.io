@@ -1053,6 +1053,9 @@
         <mxCell id="jLpQQGvRosnyA11Zk2L--19" value="Push Data" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="495" y="178" width="132" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="jLpQQGvRosnyA11Zk2L--20" value="We can use both REST APIs &amp; WebSockets in the same Node app" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFF00" vertex="1" parent="1">
+          <mxGeometry x="-109" y="373" width="821" height="118" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
