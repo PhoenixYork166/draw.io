@@ -968,54 +968,60 @@
     </mxGraphModel>
   </diagram>
   <diagram id="7pDIHnsnaR_O4G8kFbaz" name="43-REST-vs-Websockets">
-    <mxGraphModel dx="1087" dy="1171" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1163" dy="1257" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="B0IzhWL2Mpu5-q4pMpAH-1" value="REST APIs" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
-          <mxGeometry x="118" y="-87" width="100" height="40" as="geometry" />
+          <mxGeometry x="-33" y="17" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_rWCCmURWsYHcNOSR4yN-1" value="Client (browser)" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#7575fa" vertex="1" parent="1">
-          <mxGeometry x="69" y="-28" width="198" height="60" as="geometry" />
+          <mxGeometry x="-82" y="76" width="198" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vJI9Zb5tqYU7X8rzrcb3-1" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="118" y="32" as="sourcePoint" />
-            <mxPoint x="118" y="145" as="targetPoint" />
+            <mxPoint x="-33" y="136" as="sourcePoint" />
+            <mxPoint x="-33" y="249" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="158.5" y="55" />
+              <mxPoint x="7.5" y="159" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="qm-Ru26aufAe7DDH5ylo-1" value="Server" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFA500" vertex="1" parent="1">
-          <mxGeometry x="69" y="145" width="198" height="60" as="geometry" />
+          <mxGeometry x="-82" y="249" width="198" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qm-Ru26aufAe7DDH5ylo-2" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="_rWCCmURWsYHcNOSR4yN-1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="218" y="38" as="sourcePoint" />
-            <mxPoint x="218" y="35" as="targetPoint" />
+            <mxPoint x="67" y="142" as="sourcePoint" />
+            <mxPoint x="67" y="139" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="220" y="149" />
+              <mxPoint x="69" y="253" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="5U3j_wf0rN0-7dSrd7K7-1" value="1. HTTP Requests" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-3" y="74" width="132" height="30" as="geometry" />
+          <mxGeometry x="-145" y="178" width="132" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5U3j_wf0rN0-7dSrd7K7-2" value="2. HTTP Response" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="211" y="74" width="132" height="30" as="geometry" />
+          <mxGeometry x="44" y="178" width="132" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jLpQQGvRosnyA11Zk2L--1" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="267" y="174.5" as="sourcePoint" />
-            <mxPoint x="327" y="175" as="targetPoint" />
+            <mxPoint x="116" y="278.5" as="sourcePoint" />
+            <mxPoint x="176" y="279" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="391" y="174.5" />
+              <mxPoint x="240" y="278.5" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="jLpQQGvRosnyA11Zk2L--2" value="Server" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFF00" vertex="1" parent="1">
-          <mxGeometry x="329" y="127" width="198" height="118" as="geometry" />
+        <mxCell id="jLpQQGvRosnyA11Zk2L--2" value="If real-time changes on Web Server &amp; we wanna inform Clients" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFF00" vertex="1" parent="1">
+          <mxGeometry x="178" y="231" width="198" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="jLpQQGvRosnyA11Zk2L--3" value="HTTP" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#7575fa" vertex="1" parent="1">
+          <mxGeometry x="-82" y="-84" width="198" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jLpQQGvRosnyA11Zk2L--4" value="WebSockets" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFA500" vertex="1" parent="1">
+          <mxGeometry x="510" y="-78" width="198" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
