@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17" pages="13">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17" pages="14">
   <diagram name="e-shop" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="697" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -409,6 +409,26 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram id="StD1OgRGnzuQqeiyS6bS" name="0-NoSQL-vs-SQL">
+    <mxGraphModel dx="1087" dy="1171" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mgxl76x7QrMjUIGk2s-J-1" value="    - Alternative to RDBMS&#xa;&#xa;    - No strict schemas, fewer relations&#xa;&#xa;    - Schemas can be used &amp; &#xa;      Reference-based offers more flexibility&#xa;&#xa;    - Relations via Embedding documents" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#df8df0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-127" y="27" width="307" height="541" as="geometry" />
+        </mxCell>
+        <mxCell id="mgxl76x7QrMjUIGk2s-J-2" value="- Node.js MongoDB official Driver&#xa;&#xa;- CRUD:&#xa;   READ&#xa;   .find() =&gt; returns a curson&#xa;    vs&#xa;    SELECT * FROM `table_name`;&#xa;&#xa;&#xa;    CREATE&#xa;&#xa;    .insertOne() &amp; .insertMany()&#xa;    vs&#xa;    INSERT INTO `table_name` (col1, col2,...)&#xa;    VALUES (value1, value2, ...);&#xa;&#xa;    UPDATE&#xa;    .updateOne() &amp; .updateMany()&#xa;    UPDATE `table_name`&#xa;    SET col1 = value1, &#xa;    col2 = value2, &#xa;    col3 = value3&#xa;    WHERE column1 = &#39;&#39; AND column2 = &#39;&#39;;&#xa;&#xa;    DELETE&#xa;    .deleteOne()&#xa;    vs&#xa;    DELETE FROM `table_name`&#xa;    WHERE condition;&#xa;&#xa;    .deleteMany( {} );&#xa;&#xa;    vs&#xa;    BEGIN;&#xa;    DELETE FROM `table_name`;&#xa;    COMMIT;       -- Check if dbOp succeeds&#xa;&#xa;    ROLLBACK; -- rollback if sth fails&#xa;&#xa;" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#df8df0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="228" y="27" width="307" height="542" as="geometry" />
+        </mxCell>
+        <mxCell id="yHXje0-E4ibfZrqsx-hF-1" value="NoSQL / MongoDB" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#b744cf" vertex="1" parent="1">
+          <mxGeometry x="-127" y="-61" width="306" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="yHXje0-E4ibfZrqsx-hF-2" value="Working with MongoDB" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#b744cf" vertex="1" parent="1">
+          <mxGeometry x="228" y="-61" width="306" height="64" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="cqrkBHCTPUpssB_ukd5Q" name="1.Working-with-MongoDB">
     <mxGraphModel dx="1094" dy="1171" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -516,7 +536,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="MGd3iq6_WHF5ZXtwIJGA" name="2. how-MongoDB-works">
-    <mxGraphModel dx="1094" dy="1171" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1087" dy="1171" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -559,7 +579,7 @@
         <mxCell id="T2dneAinut5jyl3SVtw0-16" value="{ ... }" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#fcc397" parent="1" vertex="1">
           <mxGeometry x="289" y="171" width="204" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="mzxAO2Za-9VD8A6owMZj-4" value="MongoDB is Schemaless!" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;color=#FFA500;" vertex="1" parent="1">
+        <mxCell id="mzxAO2Za-9VD8A6owMZj-4" value="MongoDB is Schemaless!" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;color=#FFA500;" parent="1" vertex="1">
           <mxGeometry x="98.5" y="214" width="129" height="30" as="geometry" />
         </mxCell>
       </root>
