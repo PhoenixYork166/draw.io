@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17" pages="14">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17" pages="15">
   <diagram name="e-shop" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="697" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -987,7 +987,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="7pDIHnsnaR_O4G8kFbaz" name="43-REST-vs-Websockets">
+  <diagram id="7pDIHnsnaR_O4G8kFbaz" name="50-REST-vs-Websockets">
     <mxGraphModel dx="1163" dy="1257" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -1075,6 +1075,38 @@
         </mxCell>
         <mxCell id="jLpQQGvRosnyA11Zk2L--20" value="We can use both REST APIs &amp; WebSockets in the same Node app" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFF00" vertex="1" parent="1">
           <mxGeometry x="-109" y="373" width="821" height="118" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="XE5X8VD8kpfxpasiFhDn" name="43-Cookies">
+    <mxGraphModel dx="687" dy="1171" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Vud1Kxi9nJQf2sU_0nfk-1" value="Cookies" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="118" y="-87" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="55-aPNomUhYZ8G4yjk3r-2" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="gIFw6t1DQkF-kh--CrEj-1" target="NsqxopXimtHG7NgHprZg-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gIFw6t1DQkF-kh--CrEj-1" value="Client (User on browser)" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#7575fa" vertex="1" parent="1">
+          <mxGeometry x="69" y="-14" width="198" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NsqxopXimtHG7NgHprZg-1" value="Frontend (Views) EJS or React" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#8b8bfc;align=center;" vertex="1" parent="1">
+          <mxGeometry x="69" y="105" width="198" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="55-aPNomUhYZ8G4yjk3r-3" value="Web Server (Node.js)" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#7575fa" vertex="1" parent="1">
+          <mxGeometry x="69" y="273" width="198" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="55-aPNomUhYZ8G4yjk3r-4" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="55-aPNomUhYZ8G4yjk3r-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="167.5" y="165" as="sourcePoint" />
+            <mxPoint x="167.5" y="224" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yg3rRQM38uzqvlZKniS0-1" value="HTT Request" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="49" y="204" width="132" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
