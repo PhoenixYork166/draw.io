@@ -1085,7 +1085,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Vud1Kxi9nJQf2sU_0nfk-1" value="Cookies" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
-          <mxGeometry x="118" y="-87" width="100" height="40" as="geometry" />
+          <mxGeometry x="239" y="-85" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="55-aPNomUhYZ8G4yjk3r-2" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="gIFw6t1DQkF-kh--CrEj-1" target="NsqxopXimtHG7NgHprZg-1">
           <mxGeometry relative="1" as="geometry" />
