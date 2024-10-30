@@ -206,9 +206,6 @@
         <mxCell id="GVaHoaekdQgZHi8Sc-DK-22" value="GET .../user/:uid&#xa;Retrieve list of all places for a given uid" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFA500" vertex="1" parent="1">
           <mxGeometry x="445.5" y="-529" width="121" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GVaHoaekdQgZHi8Sc-DK-26" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="GVaHoaekdQgZHi8Sc-DK-24" target="GVaHoaekdQgZHi8Sc-DK-22">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="GVaHoaekdQgZHi8Sc-DK-24" value="PATH .../:pid&#xa;Update a place by pid" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFA500" vertex="1" parent="1">
           <mxGeometry x="600" y="-529" width="122" height="60" as="geometry" />
         </mxCell>
