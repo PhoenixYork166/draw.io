@@ -359,7 +359,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="kAfnE2lA82NqTMhooN2a" name="React-Context-API">
-    <mxGraphModel dx="1656" dy="1657" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1763" dy="1764" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -384,11 +384,8 @@
         <mxCell id="bIz0t-GqbV_3YA8UQxsX-1" value="Now we can stop&lt;div&gt;Messy Props Drilling!&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-158" y="-426" width="203" height="74" as="geometry" />
         </mxCell>
-        <mxCell id="bIz0t-GqbV_3YA8UQxsX-2" value="Wrapping &amp;lt;Home /&amp;gt;&lt;div&gt;&amp;lt;UserContext value={} /&amp;gt;&lt;/div&gt;&lt;div&gt;to pass state variables &amp;amp;&lt;/div&gt;&lt;div&gt;callbacks&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-709.5" y="145" width="203" height="74" as="geometry" />
-        </mxCell>
-        <mxCell id="bIz0t-GqbV_3YA8UQxsX-3" value="&#xa;&#39;home&#39;: renderRoute(&#xa;&#xa;&lt;UserContext.Provider&#xa;value={{&#xa;user: user,&#xa;isSignedIn: isSigendIn,&#xa;saveUser: saveUser,&#xa;resetUser: resetUser,&#xa;onRouteChange: onRouteChange,&#xa;fetchUserData: fetchUserData&#xa;}}&#xa;&gt;&#xa;&#xa;&lt;Home /&gt;&#xa;&#xa;&lt;/UserContext.Provider&gt;&#xa;&#xa;)," style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFA500" vertex="1" parent="1">
-          <mxGeometry x="-709.5" y="221" width="198" height="387" as="geometry" />
+        <mxCell id="bIz0t-GqbV_3YA8UQxsX-2" value="Wrapping &amp;lt;Home /&amp;gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-709.5" y="163" width="203" height="40" as="geometry" />
         </mxCell>
         <mxCell id="z1IL9TBVZMmrIyuY0z6R-1" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=none;routingCenterX=-0.5;direction=west;" vertex="1" parent="1">
           <mxGeometry x="-609.09" y="65" width="1235.09" height="1" as="geometry" />
@@ -491,6 +488,9 @@
         </mxCell>
         <mxCell id="Nojhkp8dd9Enci0DhgiO-6" value="&lt;UserContext.Provider&#xa;value={{&#xa;props1={props1},&#xa;props2={props2},&#xa;...&#xa;}}&#xa;/&gt;&#xa;&#xa;&lt;CheckRecordsPanel /&gt;&#xa;&lt;AgeRecords /&gt;&#xa;&#xa;&lt;/UserContext.Provider /&gt;" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFA500" vertex="1" parent="1">
           <mxGeometry x="529.5" y="212" width="198" height="387" as="geometry" />
+        </mxCell>
+        <mxCell id="6BiUzeo7ORM38XNeDuyM-1" value="&lt;UserContext.Provider&#xa;value={{&#xa;props1={props1},&#xa;props2={props2},&#xa;...&#xa;}}&#xa;/&gt;&#xa;&#xa;&lt;Home /&gt;&#xa;&#xa;&lt;/UserContext.Provider /&gt;" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFA500" vertex="1" parent="1">
+          <mxGeometry x="-707" y="212" width="198" height="387" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
