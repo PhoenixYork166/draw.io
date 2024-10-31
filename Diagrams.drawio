@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3" pages="17">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3" pages="18">
   <diagram id="dGGgCRRzkfK_Dobj67br" name="App1-Clarifai-Register-page">
     <mxGraphModel dx="1659" dy="1928" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -220,6 +220,140 @@
         </mxCell>
         <mxCell id="GVaHoaekdQgZHi8Sc-DK-30" value="POST .../login&#xa;Log user in using uid" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#3d3de0;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="180.5" y="-365" width="158.5" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="EY08mJ1dDSqNjK0UVvq3" name="React-Props-Drilling">
+    <mxGraphModel dx="1900" dy="1901" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MCnZI3LAJU9WZ1sBTpkE-1" value="React Props Drilling&amp;nbsp;&lt;div&gt;(not so scalable...)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="141" y="-573" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VMtGETKYwHYaoaxfFqjM-1" value="src/App.js&#xa;&#xa;passing state &amp; callbacks&#xa;as props to children&#xa;&#xa;state.user: {}&#xa;state.isSignedIn: false&#xa;saveUser(() =&gt; {})&#xa;onRouteChange(() =&gt; {})" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFA500" vertex="1" parent="1">
+          <mxGeometry x="92" y="-470" width="198" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="y4QMML2kqAQ3tt9HAZyl-1" value="&lt;Home&#xa;user={state.user}&#xa;isSignedIn={isSignedIn}&#xa;saveUser={saveUser}&#xa;onRouteChange={onRouteChange}&#xa;/&gt;" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFA500" vertex="1" parent="1">
+          <mxGeometry x="-457" y="-233" width="198" height="172" as="geometry" />
+        </mxCell>
+        <mxCell id="y4QMML2kqAQ3tt9HAZyl-3" value="&lt;CheckRecordsPanel&#xa;&#xa;user={user}&#xa;isSignedIn={isSignedIn}&#xa;saveUser={saveUser}&#xa;onRouteChange={onRouteChange}&#xa;&#xa;/&gt;" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFA500" vertex="1" parent="1">
+          <mxGeometry x="-457" y="14" width="198" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="Cd1FvMZp3s-Q_91qcesT-1" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=none;routingCenterX=-0.5;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="-358" y="-306" width="988" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cd1FvMZp3s-Q_91qcesT-2" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
+          <mxGeometry x="186" y="-338" width="10" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="Cd1FvMZp3s-Q_91qcesT-4" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-358.9100000000011" y="-304.9999999999998" as="sourcePoint" />
+            <mxPoint x="-357.85" y="-231" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-317.40999999999997" y="-254" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cd1FvMZp3s-Q_91qcesT-5" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="630" y="-306" as="sourcePoint" />
+            <mxPoint x="630.5599999999997" y="-231" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="670.5" y="-283" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cd1FvMZp3s-Q_91qcesT-7" value="&lt;Signin&#xa;user={state.user}&#xa;isSignedIn={isSignedIn}&#xa;saveUser={saveUser}&#xa;onRouteChange={onRouteChange}&#xa;/&gt;" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFA500" vertex="1" parent="1">
+          <mxGeometry x="92" y="-231" width="198" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Cd1FvMZp3s-Q_91qcesT-8" value="&lt;Register&#xa;user={state.user}&#xa;isSignedIn={isSignedIn}&#xa;saveUser={saveUser}&#xa;&#xa;onRouteChange={onRouteChange}&#xa;&#xa;fetchUserData={fetchUserData}&#xa;/&gt;" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFA500" vertex="1" parent="1">
+          <mxGeometry x="530" y="-229" width="198" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Cd1FvMZp3s-Q_91qcesT-10" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-364" y="158" width="10" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="Cd1FvMZp3s-Q_91qcesT-11" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=none;routingCenterX=-0.5;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="-576" y="190" width="432" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cd1FvMZp3s-Q_91qcesT-12" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-359.00000000000114" y="-58.99999999999977" as="sourcePoint" />
+            <mxPoint x="-359" y="12" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-317.49999999999994" y="-8" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cd1FvMZp3s-Q_91qcesT-13" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;entryX=0.483;entryY=0.003;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="Cd1FvMZp3s-Q_91qcesT-11" target="Cd1FvMZp3s-Q_91qcesT-16">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-578" y="187" as="sourcePoint" />
+            <mxPoint x="-573" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-532.5" y="241" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cd1FvMZp3s-Q_91qcesT-15" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="Cd1FvMZp3s-Q_91qcesT-18">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-144.56000000000114" y="190.00000000000023" as="sourcePoint" />
+            <mxPoint x="-145" y="261" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-103.05999999999995" y="241" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cd1FvMZp3s-Q_91qcesT-16" value="&lt;FaceRecognition&#xa;&#xa;user={user}&#xa;onRouteChange={onRouteChange}&#xa;&#xa;/&gt;" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFA500" vertex="1" parent="1">
+          <mxGeometry x="-671" y="265" width="198" height="131" as="geometry" />
+        </mxCell>
+        <mxCell id="Cd1FvMZp3s-Q_91qcesT-17" value="&lt;ColorRecognition&#xa;&#xa;user={user}&#xa;onRouteChange={onRouteChange}&#xa;&#xa;/&gt;" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFA500" vertex="1" parent="1">
+          <mxGeometry x="-457" y="265" width="198" height="131" as="geometry" />
+        </mxCell>
+        <mxCell id="Cd1FvMZp3s-Q_91qcesT-18" value="&lt;AgeRecognition&#xa;&#xa;user={user}&#xa;onRouteChange={onRouteChange}&#xa;&#xa;/&gt;" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFA500" vertex="1" parent="1">
+          <mxGeometry x="-243" y="265" width="198" height="131" as="geometry" />
+        </mxCell>
+        <mxCell id="Cd1FvMZp3s-Q_91qcesT-19" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="Cd1FvMZp3s-Q_91qcesT-17">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-358.5" y="191" as="sourcePoint" />
+            <mxPoint x="-361" y="263" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-315" y="242" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cd1FvMZp3s-Q_91qcesT-20" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="Cd1FvMZp3s-Q_91qcesT-7">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="190.7799999999989" y="-305.9999999999998" as="sourcePoint" />
+            <mxPoint x="190.78000000000003" y="-235" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="232.2800000000001" y="-255" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cd1FvMZp3s-Q_91qcesT-23" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="190.28999999999888" y="-60.99999999999977" as="sourcePoint" />
+            <mxPoint x="190.51" y="14" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="231.79000000000008" y="-10" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cd1FvMZp3s-Q_91qcesT-24" value="&lt;button&#xa;onClick={() =&gt;&#xa; onRouteChange(&#39;register&#39;);&#xa;}&#xa;&#xa;className={`${classes.signinBtn}`}&#xa;type=&quot;submit&quot;&#xa;value=&quot;Register&quot;&#xa;/&gt;" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFA500" vertex="1" parent="1">
+          <mxGeometry x="92" y="17" width="198" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Cd1FvMZp3s-Q_91qcesT-25" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="629.9999999999989" y="-58.99999999999977" as="sourcePoint" />
+            <mxPoint x="630.22" y="16" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="671.5" y="-8" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cd1FvMZp3s-Q_91qcesT-26" value="onSubmitRegister = (event) =&gt; {&#xa;&#xa;event.preventDefault();&#xa;&#xa;fetch(someUrl, {})&#xa;.then((response) =&gt; response.json())&#xa;.then((user) =&gt; {&#xa;if (user.id) {&#xa;this.props.saveUser(user);&#xa;this.props.fetchUserData();&#xa;this.props.onRouteChange(&#39;home&#39;);&#xa;} else {&#xa;this.props.onRouteChange(&#39;register&#39;);&#xa;...&#xa;}&#xa;)&#xa;.catch((err) =&gt; console.error(err));" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFA500" vertex="1" parent="1">
+          <mxGeometry x="512" y="17" width="234" height="290" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
