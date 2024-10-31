@@ -34,7 +34,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sJqNIliAfBtjSxyefdmO-12" value="HTTP POST Request&lt;div&gt;req.body: {&lt;/div&gt;&lt;div&gt;name: string,&lt;/div&gt;&lt;div&gt;email: string,&lt;/div&gt;&lt;div&gt;password: string,&lt;/div&gt;&lt;div&gt;passwordConfirm: string&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
+        <mxCell id="sJqNIliAfBtjSxyefdmO-12" value="HTTP POST Request&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;JSON body {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;name: string,&lt;/div&gt;&lt;div&gt;email: string,&lt;/div&gt;&lt;div&gt;password: string,&lt;/div&gt;&lt;div&gt;passwordConfirm: string&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="299" y="-511" width="179" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sJqNIliAfBtjSxyefdmO-13" value="Postgres DB" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#7575fa" parent="1" vertex="1">
@@ -43,7 +43,7 @@
         <mxCell id="sJqNIliAfBtjSxyefdmO-16" value="Knex.js&lt;div&gt;connector&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="554" y="-336" width="132" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sJqNIliAfBtjSxyefdmO-20" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Express route:&lt;/span&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;http://localhost:3001/register&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="sJqNIliAfBtjSxyefdmO-20" value="&lt;br&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;http://localhost:3001/register&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="299" y="-630" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sJqNIliAfBtjSxyefdmO-22" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="sJqNIliAfBtjSxyefdmO-13" edge="1">
@@ -90,6 +90,125 @@
         </mxCell>
         <mxCell id="HW43q72zFyjFRs5z7Jw6-3" value="table `users`" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFA500" vertex="1" parent="1">
           <mxGeometry x="568" y="-260" width="198" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="LJyTZVPfp3FOcjIsd5y0" name="Signin-route-persistence">
+    <mxGraphModel dx="1299" dy="1901" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6R8d0WZN2qIfmz87X0iU-1" value="Signin page&lt;div&gt;REST API&lt;/div&gt;&lt;div&gt;data-flow&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="340" y="-691" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6R8d0WZN2qIfmz87X0iU-2" value="res.cookie(&#39;userData&#39;, JSON.stringify({&lt;div&gt;id: user[0].id,&lt;/div&gt;&lt;div&gt;email: user[0].email&lt;/div&gt;&lt;div&gt;}), {&lt;/div&gt;&lt;div&gt;maxAge: 900000,&amp;nbsp;&lt;/div&gt;&lt;div&gt;httpOnly: true,&lt;/div&gt;&lt;div&gt;secure: true,&lt;/div&gt;&lt;div&gt;sameSite: &#39;None&#39;&lt;/div&gt;&lt;div&gt;}).json(req.session.user)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="324" y="239" width="132" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6R8d0WZN2qIfmz87X0iU-3" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="566" y="147.44000000000023" as="sourcePoint" />
+            <mxPoint x="173" y="147.44" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="398" y="147.44" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6R8d0WZN2qIfmz87X0iU-4" value="Node.js Backend" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#3d3de0;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="568" y="-600" width="198" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6R8d0WZN2qIfmz87X0iU-5" value="React Frontend&#xa;browser" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFA500" vertex="1" parent="1">
+          <mxGeometry x="-23" y="-600" width="198" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6R8d0WZN2qIfmz87X0iU-6" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6R8d0WZN2qIfmz87X0iU-5" target="6R8d0WZN2qIfmz87X0iU-4">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="187" y="-570.56" as="sourcePoint" />
+            <mxPoint x="555" y="-570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="555" y="-570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6R8d0WZN2qIfmz87X0iU-7" value="HTTP POST Request&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;JSON body {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;email: string,&lt;/div&gt;&lt;div&gt;password: string&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="299" y="-529" width="179" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6R8d0WZN2qIfmz87X0iU-8" value="bcrypt" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#7575fa" vertex="1" parent="1">
+          <mxGeometry x="568" y="-458" width="198" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6R8d0WZN2qIfmz87X0iU-9" value="Compare hash" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="541" y="-351" width="132" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6R8d0WZN2qIfmz87X0iU-10" value="&lt;br&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;http://localhost:3001/signin&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="299" y="-630" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6R8d0WZN2qIfmz87X0iU-11" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="6R8d0WZN2qIfmz87X0iU-8">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="666.47" y="-537.5" as="sourcePoint" />
+            <mxPoint x="666" y="-445" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="706.97" y="-514.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6R8d0WZN2qIfmz87X0iU-12" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="666.47" y="-395" as="sourcePoint" />
+            <mxPoint x="667" y="-275" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="706.97" y="-372" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6R8d0WZN2qIfmz87X0iU-13" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="666.94" y="-240" as="sourcePoint" />
+            <mxPoint x="667" y="-93.00000000000023" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="707.44" y="-217" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6R8d0WZN2qIfmz87X0iU-14" value="select email, hash where email = req.body.email&lt;div&gt;from `login`&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="532" y="-169" width="132" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6R8d0WZN2qIfmz87X0iU-15" value="{&amp;nbsp;&lt;div&gt;id: integer,&lt;div&gt;hash: varchar(100),&lt;/div&gt;&lt;div&gt;email: text&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="673" y="-169" width="132" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6R8d0WZN2qIfmz87X0iU-16" value="bcrypt.hash(password, saltRound)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="689" y="-370" width="132" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="6R8d0WZN2qIfmz87X0iU-17" value="React Frontend browser" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFA500" vertex="1" parent="1">
+          <mxGeometry x="-23" y="118" width="198" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6R8d0WZN2qIfmz87X0iU-19" value="Postgres DB" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFA500" vertex="1" parent="1">
+          <mxGeometry x="568" y="-274" width="198" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6R8d0WZN2qIfmz87X0iU-23" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="666.4100000000001" y="-30" as="sourcePoint" />
+            <mxPoint x="666.47" y="116.99999999999977" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="706.9100000000001" y="-7" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6R8d0WZN2qIfmz87X0iU-24" value="Express REST API" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#3d3de0;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="568" y="118" width="198" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6R8d0WZN2qIfmz87X0iU-25" value="table `login`" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFA500" vertex="1" parent="1">
+          <mxGeometry x="568" y="-91" width="198" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6R8d0WZN2qIfmz87X0iU-26" value="MATCH!" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="532" y="28" width="132" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6R8d0WZN2qIfmz87X0iU-27" value="IF FOUND&lt;div&gt;user.length &amp;gt; 0&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;req.session.user = user[0];&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="673" y="28" width="132" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6R8d0WZN2qIfmz87X0iU-28" value="res.cookie() gives &#39;connect.sid&#39;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="322.5" y="102" width="132" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6R8d0WZN2qIfmz87X0iU-29" value="Browser Storage:&lt;div&gt;connect.sid&lt;/div&gt;&lt;div&gt;userData&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="10" y="72" width="132" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -492,14 +611,6 @@
         <mxCell id="6BiUzeo7ORM38XNeDuyM-1" value="&lt;UserContext.Provider&#xa;value={{&#xa;props1={props1},&#xa;props2={props2},&#xa;...&#xa;}}&#xa;/&gt;&#xa;&#xa;&lt;Home /&gt;&#xa;&#xa;&lt;/UserContext.Provider /&gt;" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFA500" vertex="1" parent="1">
           <mxGeometry x="-707" y="212" width="198" height="387" as="geometry" />
         </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="LJyTZVPfp3FOcjIsd5y0" name="React-route-persistence">
-    <mxGraphModel dx="770" dy="771" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
