@@ -391,7 +391,7 @@
           <mxGeometry x="-709.5" y="221" width="198" height="387" as="geometry" />
         </mxCell>
         <mxCell id="z1IL9TBVZMmrIyuY0z6R-1" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=none;routingCenterX=-0.5;direction=west;" vertex="1" parent="1">
-          <mxGeometry x="-609.09" y="65" width="988" height="1" as="geometry" />
+          <mxGeometry x="-609.09" y="65" width="1235.09" height="1" as="geometry" />
         </mxCell>
         <mxCell id="z1IL9TBVZMmrIyuY0z6R-2" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
           <mxGeometry x="-65.09" y="33" width="10" height="32" as="geometry" />
@@ -407,33 +407,33 @@
         </mxCell>
         <mxCell id="z1IL9TBVZMmrIyuY0z6R-4" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="378.90999999999997" y="65" as="sourcePoint" />
-            <mxPoint x="379.4699999999997" y="140" as="targetPoint" />
+            <mxPoint x="-118.68000000000004" y="67" as="sourcePoint" />
+            <mxPoint x="-118.12000000000032" y="142" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="419.40999999999997" y="88" />
+              <mxPoint x="-78.18000000000004" y="90" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="z1IL9TBVZMmrIyuY0z6R-5" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="-60.31000000000111" y="65.00000000000023" as="sourcePoint" />
-            <mxPoint x="-60.09" y="140" as="targetPoint" />
+            <mxPoint x="-366.8100000000011" y="68.00000000000023" as="sourcePoint" />
+            <mxPoint x="-366.59000000000003" y="143" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-18.809999999999917" y="116" />
+              <mxPoint x="-325.30999999999995" y="119" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="z1IL9TBVZMmrIyuY0z6R-6" value="Wrapping &amp;lt;Signin /&amp;gt;&amp;nbsp;&lt;div&gt;&amp;lt;UserContext value={} /&amp;gt;&lt;/div&gt;&lt;div&gt;to pass state variables &amp;amp;&lt;/div&gt;&lt;div&gt;callbacks&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-161.59000000000003" y="145" width="203" height="74" as="geometry" />
+          <mxGeometry x="-464.5" y="152" width="203" height="74" as="geometry" />
         </mxCell>
         <mxCell id="z1IL9TBVZMmrIyuY0z6R-7" value="&#xa;&#39;signin&#39;: renderRoute(&#xa;&#xa;&lt;UserContext.Provider&#xa;value={{&#xa;user: user,&#xa;isSignedIn: isSigendIn,&#xa;saveUser: saveUser,&#xa;resetUser: resetUser,&#xa;onRouteChange: onRouteChange,&#xa;fetchUserData: fetchUserData&#xa;}}&#xa;&gt;&#xa;&#xa;&lt;Signin /&gt;&#xa;&#xa;&lt;/UserContext.Provider&gt;&#xa;&#xa;)," style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFA500" vertex="1" parent="1">
-          <mxGeometry x="-155.5" y="221" width="198" height="387" as="geometry" />
+          <mxGeometry x="-462" y="228" width="198" height="387" as="geometry" />
         </mxCell>
         <mxCell id="z1IL9TBVZMmrIyuY0z6R-8" value="Wrapping &amp;lt;Register /&amp;gt;&amp;nbsp;&lt;div&gt;&amp;lt;UserContext value={} /&amp;gt;&lt;/div&gt;&lt;div&gt;to pass state variables &amp;amp;&lt;/div&gt;&lt;div&gt;callbacks&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="280.99999999999994" y="140" width="203" height="74" as="geometry" />
+          <mxGeometry x="-216.59000000000006" y="150" width="203" height="74" as="geometry" />
         </mxCell>
         <mxCell id="z1IL9TBVZMmrIyuY0z6R-9" value="&#xa;&#39;signin&#39;: renderRoute(&#xa;&#xa;&lt;UserContext.Provider&#xa;value={{&#xa;user: user,&#xa;isSignedIn: isSigendIn,&#xa;saveUser: saveUser,&#xa;resetUser: resetUser,&#xa;onRouteChange: onRouteChange,&#xa;fetchUserData: fetchUserData&#xa;}}&#xa;&gt;&#xa;&#xa;&lt;Register /&gt;&#xa;&#xa;&lt;/UserContext.Provider&gt;&#xa;&#xa;)," style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFA500" vertex="1" parent="1">
-          <mxGeometry x="283.5" y="219" width="198" height="387" as="geometry" />
+          <mxGeometry x="-214.09" y="227" width="198" height="387" as="geometry" />
         </mxCell>
         <mxCell id="EKG07mXLgepvu1CnnFCz-1" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
@@ -443,6 +443,51 @@
               <mxPoint x="267.5" y="-202.20999999999998" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="EKG07mXLgepvu1CnnFCz-2" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="132" y="65" as="sourcePoint" />
+            <mxPoint x="131.5" y="136" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="172.7800000000001" y="112" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EKG07mXLgepvu1CnnFCz-3" value="Wrapping&amp;nbsp;&lt;div&gt;&amp;lt;CheckRecordsPanel /&amp;gt;&amp;lt;CelebrityRecords /&amp;gt;&amp;nbsp;&lt;div&gt;&amp;lt;UserContext value={} /&amp;gt;&lt;/div&gt;&lt;div&gt;to pass state variables &amp;amp;&lt;/div&gt;&lt;div&gt;callbacks&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="31.09" y="154" width="203" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="EKG07mXLgepvu1CnnFCz-4" value="&#xa;&#39;signin&#39;: renderRoute(&#xa;&#xa;&lt;UserContext.Provider&#xa;value={{&#xa;user: user,&#xa;isSignedIn: isSigendIn,&#xa;saveUser: saveUser,&#xa;resetUser: resetUser,&#xa;onRouteChange: onRouteChange,&#xa;fetchUserData: fetchUserData&#xa;}}&#xa;&gt;&#xa;&lt;CheckRecords /&gt;&#xa;&lt;CelebrityRecords /&gt;&#xa;&#xa;&lt;/UserContext.Provider&gt;&#xa;&#xa;)," style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFA500" vertex="1" parent="1">
+          <mxGeometry x="36.09000000000003" y="231" width="198" height="387" as="geometry" />
+        </mxCell>
+        <mxCell id="EKG07mXLgepvu1CnnFCz-5" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="374.90999999999997" y="65" as="sourcePoint" />
+            <mxPoint x="374.40999999999997" y="136" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="415.69000000000005" y="112" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EKG07mXLgepvu1CnnFCz-6" value="Wrapping&amp;nbsp;&lt;div&gt;&amp;lt;CheckRecordsPanel /&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;lt;ColorRecords /&amp;gt;&amp;nbsp;&lt;div&gt;&amp;lt;UserContext value={} /&amp;gt;&lt;/div&gt;&lt;div&gt;to pass state variables &amp;amp;&lt;/div&gt;&lt;div&gt;callbacks&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="274" y="154" width="203" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="EKG07mXLgepvu1CnnFCz-7" value="&#xa;&#39;signin&#39;: renderRoute(&#xa;&#xa;&lt;UserContext.Provider&#xa;value={{&#xa;user: user,&#xa;isSignedIn: isSigendIn,&#xa;saveUser: saveUser,&#xa;resetUser: resetUser,&#xa;onRouteChange: onRouteChange,&#xa;fetchUserData: fetchUserData&#xa;}}&#xa;&gt;&#xa;&lt;CheckRecords /&gt;&#xa;&lt;ColorRecords /&gt;&#xa;&#xa;&lt;/UserContext.Provider&gt;&#xa;&#xa;)," style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFA500" vertex="1" parent="1">
+          <mxGeometry x="279" y="231" width="198" height="387" as="geometry" />
+        </mxCell>
+        <mxCell id="EKG07mXLgepvu1CnnFCz-8" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="625.91" y="65" as="sourcePoint" />
+            <mxPoint x="625.41" y="136" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="666.69" y="112" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EKG07mXLgepvu1CnnFCz-9" value="Wrapping&amp;nbsp;&lt;div&gt;&amp;lt;CheckRecordsPanel /&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;lt;AgeRecords /&amp;gt;&amp;nbsp;&lt;div&gt;&amp;lt;UserContext value={} /&amp;gt;&lt;/div&gt;&lt;div&gt;to pass state variables &amp;amp;&lt;/div&gt;&lt;div&gt;callbacks&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="527" y="155" width="203" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="EKG07mXLgepvu1CnnFCz-10" value="&#xa;&#39;signin&#39;: renderRoute(&#xa;&#xa;&lt;UserContext.Provider&#xa;value={{&#xa;user: user,&#xa;isSignedIn: isSigendIn,&#xa;saveUser: saveUser,&#xa;resetUser: resetUser,&#xa;onRouteChange: onRouteChange,&#xa;fetchUserData: fetchUserData&#xa;}}&#xa;&gt;&#xa;&lt;CheckRecords /&gt;&#xa;&lt;AgeRecords /&gt;&#xa;&#xa;&lt;/UserContext.Provider&gt;&#xa;&#xa;)," style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFA500" vertex="1" parent="1">
+          <mxGeometry x="532" y="231" width="198" height="387" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
