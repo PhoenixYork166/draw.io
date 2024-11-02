@@ -806,7 +806,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="VodKX0ubIVDdtnhblwm1" name="App3-Auth-component">
-    <mxGraphModel dx="1662" dy="2342" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1303" dy="2085" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1003,27 +1003,18 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Dd9uYi32oVnXnJ9k7gK--7" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;" edge="1" parent="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="534.9200000000001" y="798.5" as="sourcePoint" />
-            <mxPoint x="534.92" y="860.5" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="575.4200000000001" y="821.5" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="Dd9uYi32oVnXnJ9k7gK--8" value="exports.signup = async (req, res, next) =&gt; {&#xa;&#xa;const { &#xa;name, &#xa;email,&#xa; password,&#xa;image&#xa; } = req.body&#xa;&#xa;let existingUser;&#xa;&#xa;try { &#xa;existingUser = await User.findOne({ &#xa;email: email &#xa;});&#xa;} catch (err) {}&#xa;&#xa;res.json({&#xa;message: &#39;Logged in!&#39;,&#xa;user: existingUser.toObject({&#xa;getters: true&#xa;})&#xa;});&#xa;};" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#00FFFF" vertex="1" parent="1">
-          <mxGeometry x="394.75" y="1414.5" width="280" height="469" as="geometry" />
+          <mxGeometry x="393.25" y="1123" width="280" height="469" as="geometry" />
         </mxCell>
         <mxCell id="Dd9uYi32oVnXnJ9k7gK--9" value="Express Router" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#00FFFF" vertex="1" parent="1">
-          <mxGeometry x="394.75" y="860.5" width="280" height="75" as="geometry" />
+          <mxGeometry x="393.25" y="569" width="280" height="75" as="geometry" />
         </mxCell>
         <mxCell id="Dd9uYi32oVnXnJ9k7gK--10" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="536.58" y="1352.5" as="sourcePoint" />
-            <mxPoint x="536.5799999999999" y="1414.5" as="targetPoint" />
+            <mxPoint x="535.08" y="1061" as="sourcePoint" />
+            <mxPoint x="535.0799999999999" y="1123" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="577.08" y="1375.5" />
+              <mxPoint x="575.58" y="1084" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1031,13 +1022,13 @@
           <mxGeometry x="-44" y="432.5" width="232" height="74" as="geometry" />
         </mxCell>
         <mxCell id="Dd9uYi32oVnXnJ9k7gK--12" value="backend/routes/&lt;div&gt;users-route.js&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="213.75" y="861" width="232" height="74" as="geometry" />
+          <mxGeometry x="210" y="569.5" width="232" height="74" as="geometry" />
         </mxCell>
         <mxCell id="Dd9uYi32oVnXnJ9k7gK--13" value="backend/controllers/&lt;div&gt;users-controllers.js&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&#39;login&#39;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-29.5" y="1183.5" width="232" height="74" as="geometry" />
         </mxCell>
         <mxCell id="Dd9uYi32oVnXnJ9k7gK--14" value="backend/controllers/&lt;div&gt;users-controllers.js&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&#39;signup&#39;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="209.25" y="1612" width="232" height="74" as="geometry" />
+          <mxGeometry x="202.5" y="1320.5" width="232" height="74" as="geometry" />
         </mxCell>
         <mxCell id="Dd9uYi32oVnXnJ9k7gK--15" value="TEXT data" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-291" y="241" width="203" height="74" as="geometry" />
@@ -1075,31 +1066,31 @@
           </mxCell>
         </UserObject>
         <mxCell id="Dd9uYi32oVnXnJ9k7gK--22" value="Express Controller" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#00FFFF" vertex="1" parent="1">
-          <mxGeometry x="394.75" y="1279" width="280" height="75" as="geometry" />
+          <mxGeometry x="393.25" y="987.5" width="280" height="75" as="geometry" />
         </mxCell>
         <UserObject label="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;backend/controllers/&lt;/span&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;users-controllers.js&lt;/div&gt;" link="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;backend/controllers/&lt;/span&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;users-controllers.js&lt;/div&gt;" id="Dd9uYi32oVnXnJ9k7gK--23">
           <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-            <mxGeometry x="244.25" y="1283.0033333333336" width="171" height="60" as="geometry" />
+            <mxGeometry x="242.75" y="991.5033333333336" width="171" height="60" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="Dd9uYi32oVnXnJ9k7gK--24" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="533.6300000000001" y="935.5" as="sourcePoint" />
-            <mxPoint x="533.63" y="997.5" as="targetPoint" />
+            <mxPoint x="532.1300000000001" y="644" as="sourcePoint" />
+            <mxPoint x="532.13" y="706" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="574.1300000000001" y="958.5" />
+              <mxPoint x="572.6300000000001" y="667" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Dd9uYi32oVnXnJ9k7gK--25" value="router.post(&#xa;&#39;/signup&#39;,&#xa;fileUpload.single(&#39;image&#39;),&#xa;// Express Validator&#xa;[&#xa;check(&#39;name&#39;).not().isEmpty(),&#xa;check(&#39;email&#39;).normalizeEmail().isEmail(),&#xa;check(&#39;password&#39;).isLength({ min: 6 }),&#xa;&#xa;]&#xa;usersController.signup&#xa;);" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#00FFFF" vertex="1" parent="1">
-          <mxGeometry x="393.25" y="998" width="280" height="214" as="geometry" />
+          <mxGeometry x="391.75" y="706.5" width="280" height="214" as="geometry" />
         </mxCell>
         <mxCell id="Dd9uYi32oVnXnJ9k7gK--26" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="533.4200000000001" y="1214" as="sourcePoint" />
-            <mxPoint x="533.42" y="1276" as="targetPoint" />
+            <mxPoint x="531.9200000000001" y="922.5" as="sourcePoint" />
+            <mxPoint x="531.92" y="984.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="573.9200000000001" y="1237" />
+              <mxPoint x="572.4200000000001" y="945.5" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1125,7 +1116,14 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Dd9uYi32oVnXnJ9k7gK--34" value="const multer = require(&#39;multer&#39;);&#xa;const uuid = require(&#39;uuid/v4&#39;);&#xa;&#xa;// Mapping for Image File MIME Types&#xa;const MIME_TYPE_MAP = {&#xa;&#39;image/png&#39;: &#39;png&#39;,&#xa;&#39;image/jpeg&#39;: &#39;jpeg&#39;,&#xa;&#39;image/jpg&#39;: &#39;jpg&#xa;};&#xa;&#xa;// multer = a group of middlewares&#xa;const fileUpload = multer){&#xa;&#xa;limits: 2048000, // 2MB File Size limit&#xa;storage: multer.diskStorage({&#xa;destination: (req, file, cb) =&gt; {&#xa;cb(null, &#39;uploads/images&#39;);&#xa;&#xa;filename: (req, file, cb) =&gt; {&#xa;const ext = MIME_TYPE_MAP(file.mimetype);&#xa;const generatedFileName = uuid() + &#39;.&#39; + ext;&#xa;cb(null, generatedFileName);&#xa;&#xa;console.log(`\nGenerated file name: ${generatedFileName}`);&#xa;console.log(`\nStorage location: backend/uploads/images/${generatedFileName}\n`);&#xa;&#xa;}&#xa;}),&#xa;&#xa;fileFilter: (req, file, cb) =&gt; {&#xa;// Filter outby mapping mime type for file.ext&#xa;const isValid = !!MIME_TYPE_MAP[file.mimetype]; // boolean&#xa;&#xa;let error = isValid ? null : new Error(`\nInvalid MIME_TYPE for file!\n`);&#xa;&#xa;if (!isValid) {&#xa;console.log(`\nInvalid file extension for: ${file.originalname}`);&#xa;console.log(`\nAttempted MIME type: ${file.mimetype}\n`);&#xa;}&#xa;&#xa;cb(error, isValid);&#xa;}&#xa;});&#xa;&#xa;module.exports = fileUpload;" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#00FFFF" vertex="1" parent="1">
-          <mxGeometry x="743" y="591" width="328" height="814" as="geometry" />
+          <mxGeometry x="827" y="432.5" width="328" height="814" as="geometry" />
+        </mxCell>
+        <mxCell id="GB3FeBpMP_dw-sPG_NQh-1" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="674.75" y="468.78999999999996" as="sourcePoint" />
+            <mxPoint x="824.75" y="468.78999999999996" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
