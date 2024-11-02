@@ -806,7 +806,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="VodKX0ubIVDdtnhblwm1" name="App3-Auth-component">
-    <mxGraphModel dx="1478" dy="1986" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2202" dy="2342" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1026,6 +1026,18 @@
               <mxPoint x="575.33" y="530" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Dd9uYi32oVnXnJ9k7gK--11" value="backend/routes/&lt;div&gt;users-route.js&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-462" y="432.5" width="232" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="Dd9uYi32oVnXnJ9k7gK--12" value="backend/routes/&lt;div&gt;users-route.js&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="627" y="432.5" width="232" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="Dd9uYi32oVnXnJ9k7gK--13" value="backend/controllers/&lt;div&gt;users-controllers.js&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&#39;login&#39;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-468" y="766.5" width="232" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="Dd9uYi32oVnXnJ9k7gK--14" value="backend/controllers/&lt;div&gt;users-controllers.js&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&#39;signup&#39;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="635" y="766.5" width="232" height="74" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
