@@ -1183,7 +1183,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="gEb7K2ZEO0Kym9Hsp_e4" name="App3-NavLinks">
-    <mxGraphModel dx="2633" dy="2513" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2373" dy="2202" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1801,6 +1801,90 @@
         </mxCell>
         <mxCell id="DpclYI_rdBlmOY0iuTCq-104" value="const mongoose = require(&#39;mongoose&#39;);&#xa;const uniqueValidator = require(&#39;mongoose-unique-validator&#39;);&#xa;&#xa;const Schema = mongoose.Schema;&#xa;&#xa;const userSchema = new Schema({&#xa;name: { type: String, required: true },&#xa;email: { type: String, required: true, unique: true },&#xa;password: { type: String, required: true, minlength: 6 },&#xa;image: { type: String, required: true },&#xa;places: [{ type: mongoose.Types.ObjectId, required: true, ref: &#39;Place&#39; }]&#xa;});&#xa;&#xa;userSchema.plugin(uniqueValidator);&#xa;&#xa;module.exports = mongoose.model(&#39;User&#39;, userSchema);" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#00FFFF" vertex="1" parent="1">
           <mxGeometry x="-412.25" y="1234" width="280" height="351" as="geometry" />
+        </mxCell>
+        <mxCell id="DpclYI_rdBlmOY0iuTCq-105" value="Express REST API" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#3d3de0;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-940.5" y="-130" width="278.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DpclYI_rdBlmOY0iuTCq-106" value="http://localhost:3011/&lt;div&gt;api/users&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-695.75" y="-137" width="232" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="DpclYI_rdBlmOY0iuTCq-107" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-805.3299999999999" y="-70" as="sourcePoint" />
+            <mxPoint x="-805.33" y="-8" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-764.8299999999999" y="-47" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DpclYI_rdBlmOY0iuTCq-108" value="Express Router" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#00FFFF" vertex="1" parent="1">
+          <mxGeometry x="-941.75" y="-9" width="280" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="DpclYI_rdBlmOY0iuTCq-109" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-808.9999999999999" y="66" as="sourcePoint" />
+            <mxPoint x="-809" y="128" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-768.4999999999999" y="89" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DpclYI_rdBlmOY0iuTCq-110" value="backend/routes/&lt;div&gt;users-route.js&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-714" y="266.5" width="232" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="DpclYI_rdBlmOY0iuTCq-111" value="router.get(&#39;/&#39;, usersControllers.getUsers);" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#00FFFF" vertex="1" parent="1">
+          <mxGeometry x="-941.75" y="128" width="280" height="351" as="geometry" />
+        </mxCell>
+        <mxCell id="DpclYI_rdBlmOY0iuTCq-112" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-801.5799999999999" y="479" as="sourcePoint" />
+            <mxPoint x="-801.58" y="541" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-761.0799999999999" y="502" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DpclYI_rdBlmOY0iuTCq-113" value="Express Controller" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#00FFFF" vertex="1" parent="1">
+          <mxGeometry x="-941.75" y="541" width="280" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="DpclYI_rdBlmOY0iuTCq-114" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-802.1999999999999" y="616" as="sourcePoint" />
+            <mxPoint x="-802.2" y="678" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-761.6999999999999" y="639" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DpclYI_rdBlmOY0iuTCq-115" value="backend/controllers/&lt;div&gt;users-controllers.js&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-693.87" y="817" width="232" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="DpclYI_rdBlmOY0iuTCq-116" value="exports.getUsers = async (req, res, next) =&gt; {}&#xa;&#xa;User.find({})&#xa;&#xa;MongoDB:&#xa;db.users.find({});" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#00FFFF" vertex="1" parent="1">
+          <mxGeometry x="-941.12" y="681" width="280" height="351" as="geometry" />
+        </mxCell>
+        <mxCell id="DpclYI_rdBlmOY0iuTCq-117" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-802.9399999999999" y="1034" as="sourcePoint" />
+            <mxPoint x="-802.94" y="1096" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-762.4399999999999" y="1057" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DpclYI_rdBlmOY0iuTCq-118" value="Node.js-Mongoose Models" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#00FFFF" vertex="1" parent="1">
+          <mxGeometry x="-941.75" y="1097.5" width="280" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="DpclYI_rdBlmOY0iuTCq-119" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-804.06" y="1172.5" as="sourcePoint" />
+            <mxPoint x="-804.0600000000001" y="1234.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-763.56" y="1195.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DpclYI_rdBlmOY0iuTCq-120" value="const mongoose = require(&#39;mongoose&#39;);&#xa;const uniqueValidator = require(&#39;mongoose-unique-validator&#39;);&#xa;&#xa;const Schema = mongoose.Schema;&#xa;&#xa;const userSchema = new Schema({&#xa;name: { type: String, required: true },&#xa;email: { type: String, required: true, unique: true },&#xa;password: { type: String, required: true, minlength: 6 },&#xa;image: { type: String, required: true },&#xa;places: [{ type: mongoose.Types.ObjectId, required: true, ref: &#39;Place&#39; }]&#xa;});&#xa;&#xa;userSchema.plugin(uniqueValidator);&#xa;&#xa;module.exports = mongoose.model(&#39;User&#39;, userSchema);" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#00FFFF" vertex="1" parent="1">
+          <mxGeometry x="-941.75" y="1236" width="280" height="351" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
