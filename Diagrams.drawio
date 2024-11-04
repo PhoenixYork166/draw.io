@@ -806,7 +806,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="VodKX0ubIVDdtnhblwm1" name="App3-Auth-component">
-    <mxGraphModel dx="1475" dy="2085" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1392" dy="1986" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -989,17 +989,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Dd9uYi32oVnXnJ9k7gK--4" value="exports.login = async (req, res, next) =&gt; {&#xa;&#xa;const { &#xa;email, &#xa;password &#xa;} = req.body&#xa;&#xa;let existingUser;&#xa;&#xa;try { &#xa;existingUser = await User.findOne({ &#xa;email: email &#xa;});&#xa;} catch (err) {}&#xa;&#xa;res.json({&#xa;message: &#39;Logged in!&#39;,&#xa;user: existingUser.toObject({&#xa;getters: true&#xa;})&#xa;});&#xa;};" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#00FFFF" vertex="1" parent="1">
-          <mxGeometry x="-273" y="986" width="280" height="469" as="geometry" />
+          <mxGeometry x="-273" y="1124.5" width="280" height="469" as="geometry" />
         </mxCell>
         <mxCell id="Dd9uYi32oVnXnJ9k7gK--5" value="Express Router" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#00FFFF" vertex="1" parent="1">
           <mxGeometry x="-273.5" y="432" width="280" height="75" as="geometry" />
         </mxCell>
         <mxCell id="Dd9uYi32oVnXnJ9k7gK--6" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="-131.16999999999996" y="924" as="sourcePoint" />
-            <mxPoint x="-131.17000000000002" y="986" as="targetPoint" />
+            <mxPoint x="-131.16999999999996" y="1062.5" as="sourcePoint" />
+            <mxPoint x="-131.17000000000002" y="1124.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-90.66999999999994" y="947" />
+              <mxPoint x="-90.66999999999994" y="1085.5" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1025,7 +1025,7 @@
           <mxGeometry x="210" y="569.5" width="232" height="74" as="geometry" />
         </mxCell>
         <mxCell id="Dd9uYi32oVnXnJ9k7gK--13" value="backend/controllers/&lt;div&gt;users-controllers.js&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&#39;login&#39;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-29.5" y="1183.5" width="232" height="74" as="geometry" />
+          <mxGeometry x="-29.5" y="1319" width="232" height="74" as="geometry" />
         </mxCell>
         <mxCell id="Dd9uYi32oVnXnJ9k7gK--14" value="backend/controllers/&lt;div&gt;users-controllers.js&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&#39;signup&#39;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="202.5" y="1320.5" width="232" height="74" as="geometry" />
@@ -1046,23 +1046,23 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Dd9uYi32oVnXnJ9k7gK--18" value="router.post(&#39;/login&#39;, usersController.login);" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#00FFFF" vertex="1" parent="1">
-          <mxGeometry x="-273.5" y="569" width="280" height="214" as="geometry" />
+          <mxGeometry x="-273.5" y="569" width="280" height="351" as="geometry" />
         </mxCell>
         <mxCell id="Dd9uYi32oVnXnJ9k7gK--19" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="-133.32999999999996" y="785" as="sourcePoint" />
-            <mxPoint x="-133.33" y="847" as="targetPoint" />
+            <mxPoint x="-133.32999999999996" y="920.5" as="sourcePoint" />
+            <mxPoint x="-133.33" y="982.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-92.82999999999994" y="808" />
+              <mxPoint x="-92.82999999999994" y="943.5" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Dd9uYi32oVnXnJ9k7gK--20" value="Express Controller" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#00FFFF" vertex="1" parent="1">
-          <mxGeometry x="-273.5" y="847" width="280" height="75" as="geometry" />
+          <mxGeometry x="-273.5" y="985.5" width="280" height="75" as="geometry" />
         </mxCell>
         <UserObject label="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;backend/controllers/&lt;/span&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;users-controllers.js&lt;/div&gt;" link="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;backend/controllers/&lt;/span&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;users-controllers.js&lt;/div&gt;" id="Dd9uYi32oVnXnJ9k7gK--21">
           <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-            <mxGeometry x="9" y="858.0033333333334" width="171" height="60" as="geometry" />
+            <mxGeometry x="9" y="996.5033333333334" width="171" height="60" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="Dd9uYi32oVnXnJ9k7gK--22" value="Express Controller" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#00FFFF" vertex="1" parent="1">
@@ -1123,6 +1123,54 @@
             <mxPoint x="674.75" y="468.78999999999996" as="sourcePoint" />
             <mxPoint x="824.75" y="468.78999999999996" as="targetPoint" />
             <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uQ1RbrfTvmSsodXwTfIC-1" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="534.5400000000001" y="1592" as="sourcePoint" />
+            <mxPoint x="534.54" y="1654" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="575.0400000000001" y="1615" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uQ1RbrfTvmSsodXwTfIC-2" value="MongoDB Atlas" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fontColor=#ffffff;;fillColor=#234F1E" vertex="1" parent="1">
+          <mxGeometry x="393.25" y="1656" width="280" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="M91TSq3Xg8yuitdggF-T-1" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="530.33" y="1731" as="sourcePoint" />
+            <mxPoint x="530.3299999999999" y="1793" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570.83" y="1754" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M91TSq3Xg8yuitdggF-T-2" value="db.users.insertOne({&#xa;name: name,&#xa;email: email,&#xa;image: req.file.path,&#xa;password,&#xa;places: []&#xa;}" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fontColor=#ffffff;;fillColor=#234F1E" vertex="1" parent="1">
+          <mxGeometry x="393.25" y="1796" width="280" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="M91TSq3Xg8yuitdggF-T-3" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-132.20999999999992" y="1593.5" as="sourcePoint" />
+            <mxPoint x="-132.21000000000004" y="1655.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-91.70999999999992" y="1616.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M91TSq3Xg8yuitdggF-T-4" value="MongoDB Atlas" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fontColor=#ffffff;;fillColor=#234F1E" vertex="1" parent="1">
+          <mxGeometry x="-273.5" y="1657.5" width="280" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="M91TSq3Xg8yuitdggF-T-5" value="db.users.findOne({&#xa;email: email&#xa;})" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fontColor=#ffffff;;fillColor=#234F1E" vertex="1" parent="1">
+          <mxGeometry x="-273.5" y="1800.5" width="280" height="178.5" as="geometry" />
+        </mxCell>
+        <mxCell id="M91TSq3Xg8yuitdggF-T-6" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-133.27999999999997" y="1734" as="sourcePoint" />
+            <mxPoint x="-133.2800000000001" y="1796" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-92.77999999999997" y="1757" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
