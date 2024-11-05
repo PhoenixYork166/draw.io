@@ -3090,6 +3090,18 @@
         <mxCell id="4C85BzcviHvWqAm2jSAX-45" value="useHttpClient&#xa;&#xa;sendRequest = useCallback(&#xa;async(url, method=&#39;GET&#39;, body=null, headers={}&#xa;) =&gt; {}" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFF00" vertex="1" parent="1">
           <mxGeometry x="-413.5" y="275" width="278.5" height="78" as="geometry" />
         </mxCell>
+        <mxCell id="6RlF_aN5lB1Gio0R95HL-1" value="MongoDB&lt;div&gt;under the hood&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-594" y="2753.75" width="232" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="6RlF_aN5lB1Gio0R95HL-2" value="MongoDB&lt;div&gt;under the hood&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="146" y="2987" width="232" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="6RlF_aN5lB1Gio0R95HL-3" value="MongoDB&lt;div&gt;under the hood&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="564" y="2243" width="232" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="6RlF_aN5lB1Gio0R95HL-4" value="MongoDB&lt;div&gt;under the hood&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1228.25" y="2243" width="232" height="74" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
