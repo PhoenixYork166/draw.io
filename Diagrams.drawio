@@ -806,7 +806,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="VodKX0ubIVDdtnhblwm1" name="App3-Auth-component">
-    <mxGraphModel dx="2660" dy="2728" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2926" dy="3003" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2470,7 +2470,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="xuWxuRfhrYPXcvzbM7o7" name="App3-UserPlaces">
-    <mxGraphModel dx="2440" dy="2085" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4920" dy="4655" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3467,6 +3467,96 @@
         </mxCell>
         <mxCell id="6RlF_aN5lB1Gio0R95HL-4" value="MongoDB&lt;div&gt;under the hood&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="1228.25" y="2243" width="232" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="W3ffmAh9JoET1lPNT0xd-1" value="exports.login = async (req, res, next) =&gt; {&#xa;&#xa;const { &#xa;email, &#xa;password &#xa;} = req.body&#xa;&#xa;MongoDB operation...&#xa;&#xa;return res.status(201).json({&#xa;success: true,&#xa;status: { code: 201 },&#xa;user: existingUser.toObject({&#xa;getters: true&#xa;}),&#xa;message: `Logged in!`&#xa;});&#xa;};" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#00FFFF" vertex="1" parent="1">
+          <mxGeometry x="744" y="2439" width="280" height="278" as="geometry" />
+        </mxCell>
+        <mxCell id="W3ffmAh9JoET1lPNT0xd-2" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="885.83" y="2374" as="sourcePoint" />
+            <mxPoint x="885.8299999999999" y="2436" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="926.33" y="2397" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W3ffmAh9JoET1lPNT0xd-3" value="backend/controllers/&lt;div&gt;users-controllers.js&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&#39;login&#39;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="987.5" y="2543" width="232" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="W3ffmAh9JoET1lPNT0xd-4" value="&lt;Auth /&gt;" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFF00" vertex="1" parent="1">
+          <mxGeometry x="743.5" y="2782" width="280" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="W3ffmAh9JoET1lPNT0xd-5" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="884.33" y="2718" as="sourcePoint" />
+            <mxPoint x="884.3299999999999" y="2780" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="924.83" y="2741" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W3ffmAh9JoET1lPNT0xd-6" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="885.33" y="2837" as="sourcePoint" />
+            <mxPoint x="885.3299999999999" y="2899" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="925.83" y="2860" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W3ffmAh9JoET1lPNT0xd-7" value="&lt;App /&gt;" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFF00" vertex="1" parent="1">
+          <mxGeometry x="746" y="2901" width="280" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="W3ffmAh9JoET1lPNT0xd-8" value="http://localhost:3020/auth" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="547" y="2772" width="203" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="W3ffmAh9JoET1lPNT0xd-9" value="http://localhost:3020" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="567.5" y="2891" width="203" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="W3ffmAh9JoET1lPNT0xd-10" value="exports.signup = async (req, res, next) =&gt; {&#xa;&#xa;const { &#xa;name, &#xa;email,&#xa; password,&#xa; } = req.body&#xa;&#xa;MongoDB operation...&#xa;&#xa;res.status(201).json({&#xa;success: true,&#xa;status: { code: 201 },&#xa;user: createdUser.toObject({ getters: true }),&#xa;message: &#39;Registered user!&#39;&#xa;});&#xa;};" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#00FFFF" vertex="1" parent="1">
+          <mxGeometry x="1410.25" y="2437" width="280" height="278" as="geometry" />
+        </mxCell>
+        <mxCell id="W3ffmAh9JoET1lPNT0xd-11" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="1553.58" y="2372" as="sourcePoint" />
+            <mxPoint x="1553.58" y="2434" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1594.08" y="2395" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W3ffmAh9JoET1lPNT0xd-12" value="backend/controllers/&lt;div&gt;users-controllers.js&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&#39;signup&#39;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1217.5" y="2543" width="232" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="W3ffmAh9JoET1lPNT0xd-13" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="1551.75" y="2717" as="sourcePoint" />
+            <mxPoint x="1551.75" y="2779" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1592.25" y="2740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W3ffmAh9JoET1lPNT0xd-14" value="&lt;Auth /&gt;" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFF00" vertex="1" parent="1">
+          <mxGeometry x="1412.25" y="2782" width="280" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="W3ffmAh9JoET1lPNT0xd-15" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="1551.58" y="2835" as="sourcePoint" />
+            <mxPoint x="1551.58" y="2897" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1592.08" y="2858" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W3ffmAh9JoET1lPNT0xd-16" value="&lt;App /&gt;" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFF00" vertex="1" parent="1">
+          <mxGeometry x="1412.25" y="2899" width="280" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="W3ffmAh9JoET1lPNT0xd-17" value="http://localhost:3020/auth" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1213.25" y="2770" width="203" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="W3ffmAh9JoET1lPNT0xd-18" value="http://localhost:3020" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1233.75" y="2889" width="203" height="74" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
