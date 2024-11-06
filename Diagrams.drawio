@@ -806,7 +806,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="VodKX0ubIVDdtnhblwm1" name="App3-Auth-component">
-    <mxGraphModel dx="1888" dy="2342" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2053" dy="2513" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3854,9 +3854,6 @@
               <mxPoint x="77.50000000000006" y="-301" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="wzz1408nOmpqrGxWjHq9-148" value="backend/models/&lt;div&gt;place.js&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="608" y="1747.5" width="232" height="74" as="geometry" />
         </mxCell>
         <mxCell id="wzz1408nOmpqrGxWjHq9-152" value="Server" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFA500;" vertex="1" parent="1">
           <mxGeometry x="-42" y="-183" width="485" height="60" as="geometry" />
