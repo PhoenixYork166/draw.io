@@ -806,7 +806,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="VodKX0ubIVDdtnhblwm1" name="App3-Auth-component">
-    <mxGraphModel dx="2260" dy="2728" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1888" dy="2342" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1351,11 +1351,17 @@
         <mxCell id="2NzgUH7m7KET9JwyRQyz-104" value="Verify req.headers.authorization" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#00FFFF" vertex="1" parent="1">
           <mxGeometry x="396.25" y="582" width="280" height="75" as="geometry" />
         </mxCell>
+        <mxCell id="zRH6rrd4ZSos0nffcG49-1" value="Restricted" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-296" y="370" width="232" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="zRH6rrd4ZSos0nffcG49-2" value="Restricted" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="371.5" y="370" width="232" height="74" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="gEb7K2ZEO0Kym9Hsp_e4" name="App3-NavLinks">
-    <mxGraphModel dx="2853" dy="2513" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3060" dy="2728" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1702,102 +1708,102 @@
           <mxGeometry x="346" y="-256.5" width="278.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9zGyPfN90MDmdh2ddBzr-6" value="Express REST API" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#3d3de0;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="344.25" y="373" width="278.75" height="60" as="geometry" />
+          <mxGeometry x="344.25" y="372" width="278.75" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9zGyPfN90MDmdh2ddBzr-8" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="485.7300000000001" y="433.5" as="sourcePoint" />
-            <mxPoint x="485.72999999999996" y="495.5" as="targetPoint" />
+            <mxPoint x="485.7300000000001" y="711.5" as="sourcePoint" />
+            <mxPoint x="485.72999999999996" y="773.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="526.23" y="456.5" />
+              <mxPoint x="526.23" y="734.5" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="9zGyPfN90MDmdh2ddBzr-9" value="Express Router" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#00FFFF" vertex="1" parent="1">
-          <mxGeometry x="345.25" y="494.5" width="280" height="75" as="geometry" />
+          <mxGeometry x="345.25" y="774.5" width="280" height="75" as="geometry" />
         </mxCell>
         <mxCell id="9zGyPfN90MDmdh2ddBzr-10" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="485.73000000000013" y="569.5" as="sourcePoint" />
-            <mxPoint x="485.73" y="631.5" as="targetPoint" />
+            <mxPoint x="485.73000000000013" y="849.5" as="sourcePoint" />
+            <mxPoint x="485.73" y="911.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="526.2300000000001" y="592.5" />
+              <mxPoint x="526.2300000000001" y="872.5" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="9zGyPfN90MDmdh2ddBzr-11" value="backend/routes/&lt;div&gt;places-route.js&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="163" y="770" width="232" height="74" as="geometry" />
+          <mxGeometry x="167" y="1057" width="232" height="74" as="geometry" />
         </mxCell>
         <mxCell id="9zGyPfN90MDmdh2ddBzr-12" value="router.post(&#xa;&#39;/&#39;, &#xa;fileUpload.single(&#39;image&#39;),&#xa;[&#xa;check(&#39;title).not().isEmpty(),&#xa;check(&#39;description&#39;).isLength({ min: 5 }),&#xa;check(&#39;address&#39;).not().isEmpty()&#xa;],&#xa;placesControllers.createPlace&#xa;);" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#00FFFF" vertex="1" parent="1">
-          <mxGeometry x="345.25" y="631.5" width="280" height="351" as="geometry" />
+          <mxGeometry x="345.25" y="911.5" width="280" height="351" as="geometry" />
         </mxCell>
         <mxCell id="9zGyPfN90MDmdh2ddBzr-13" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="484.4800000000001" y="982.5" as="sourcePoint" />
-            <mxPoint x="484.47999999999996" y="1044.5" as="targetPoint" />
+            <mxPoint x="484.4800000000001" y="1262.5" as="sourcePoint" />
+            <mxPoint x="484.47999999999996" y="1324.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="524.98" y="1005.5" />
+              <mxPoint x="524.98" y="1285.5" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="9zGyPfN90MDmdh2ddBzr-14" value="Express Controller" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#00FFFF" vertex="1" parent="1">
-          <mxGeometry x="345.25" y="1044.5" width="280" height="75" as="geometry" />
+          <mxGeometry x="345.25" y="1324.5" width="280" height="75" as="geometry" />
         </mxCell>
         <mxCell id="9zGyPfN90MDmdh2ddBzr-15" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="482.9800000000001" y="1119.5" as="sourcePoint" />
-            <mxPoint x="482.97999999999996" y="1181.5" as="targetPoint" />
+            <mxPoint x="482.9800000000001" y="1399.5" as="sourcePoint" />
+            <mxPoint x="482.97999999999996" y="1461.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="523.48" y="1142.5" />
+              <mxPoint x="523.48" y="1422.5" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="9zGyPfN90MDmdh2ddBzr-16" value="backend/controllers/&lt;div&gt;places-controllers.js&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="150" y="1473.75" width="232" height="74" as="geometry" />
+          <mxGeometry x="150" y="1757.75" width="232" height="74" as="geometry" />
         </mxCell>
         <mxCell id="9zGyPfN90MDmdh2ddBzr-17" value="exports.createPlace = async (req, res, next) =&gt; {}&#xa;&#xa;const { title, description, address, creator } = req.body;&#xa;&#xa;// Instantiating mongoose &#39;place&#39; model&#xa;// db.places.query()&#xa;const createdPlace = new Place({&#xa;title: title,&#xa;description: description,&#xa;address: address,&#xa;location: coordinates,&#xa;image: req.file.path,&#xa;creator: creator&#xa;});&#xa;&#xa;// db.users.query()&#xa;let user;&#xa;try {&#xa;user = await User.findById(creator);&#xa;&#xa;if (!user) {&#xa;return next(new HttpError(`Could not find user for provided id.`, 404};&#xa;}&#xa;} catch (err) {&#xa;return next(new HttpError(`Creating place failed, please try again.`, 500));&#xa;}&#xa;&#xa;try { &#xa;const sess = await mongoose.startSession();&#xa;sess.startTransaction();&#xa;await createdPlace.save({ session: sess });&#xa;user.places.push(createdPlace);&#xa;await user.save({ session: sess });&#xa;await sess.commitTransaction();&#xa;} catch (err) {&#xa;console.error(err);&#xa;return next(new HttpError(&#39;Creating place failed, please try again.&#39;, 500));&#xa;&#xa;res.status(201).json({ place: createdPlace });&#xa;);" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#00FFFF" vertex="1" parent="1">
-          <mxGeometry x="345.88" y="1184.5" width="280" height="652.5" as="geometry" />
+          <mxGeometry x="345.88" y="1464.5" width="280" height="652.5" as="geometry" />
         </mxCell>
         <mxCell id="9zGyPfN90MDmdh2ddBzr-19" value="Node.js-Mongoose Models" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#00FFFF" vertex="1" parent="1">
-          <mxGeometry x="346.5" y="1901" width="280" height="75" as="geometry" />
+          <mxGeometry x="346.5" y="2181" width="280" height="75" as="geometry" />
         </mxCell>
         <mxCell id="9zGyPfN90MDmdh2ddBzr-20" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="482.86000000000007" y="1976" as="sourcePoint" />
-            <mxPoint x="482.85999999999996" y="2038" as="targetPoint" />
+            <mxPoint x="482.86000000000007" y="2256" as="sourcePoint" />
+            <mxPoint x="482.85999999999996" y="2318" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="523.36" y="1999" />
+              <mxPoint x="523.36" y="2279" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="9zGyPfN90MDmdh2ddBzr-21" value="const mongoose = require(&#39;mongoose&#39;);&#xa;const uniqueValidator = require(&#39;mongoose-unique-validator&#39;);&#xa;&#xa;const Schema = mongoose.Schema;&#xa;&#xa;const userSchema = new Schema({&#xa;name: { type: String, required: true },&#xa;email: { type: String, required: true, unique: true },&#xa;password: { type: String, required: true, minlength: 6 },&#xa;image: { type: String, required: true },&#xa;places: [{ type: mongoose.Types.ObjectId, required: true, ref: &#39;Place&#39; }]&#xa;});&#xa;&#xa;userSchema.plugin(uniqueValidator);&#xa;&#xa;module.exports = mongoose.model(&#39;User&#39;, userSchema);" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#00FFFF" vertex="1" parent="1">
-          <mxGeometry x="346.5" y="2039.5" width="280" height="351" as="geometry" />
+          <mxGeometry x="346.5" y="2319.5" width="280" height="351" as="geometry" />
         </mxCell>
         <mxCell id="9zGyPfN90MDmdh2ddBzr-22" value="backend/models/&lt;div&gt;user.js&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="164.25" y="2151.5" width="232" height="74" as="geometry" />
+          <mxGeometry x="164.25" y="2431.5" width="232" height="74" as="geometry" />
         </mxCell>
         <mxCell id="9zGyPfN90MDmdh2ddBzr-23" value="http://localhost:3020/&lt;div&gt;:uid(ObjectId)/places&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="167" y="-263.5" width="203" height="74" as="geometry" />
         </mxCell>
         <mxCell id="FD2r_MFtYYKVxHmnxgQD-1" value="const multer = require(&#39;multer&#39;);&#xa;const uuid = require(&#39;uuid/v4&#39;);&#xa;&#xa;// Mapping for Image File MIME Types&#xa;const MIME_TYPE_MAP = {&#xa;&#39;image/png&#39;: &#39;png&#39;,&#xa;&#39;image/jpeg&#39;: &#39;jpeg&#39;,&#xa;&#39;image/jpg&#39;: &#39;jpg&#xa;};&#xa;&#xa;// multer = a group of middlewares&#xa;const fileUpload = multer){&#xa;&#xa;limits: 2048000, // 2MB File Size limit&#xa;storage: multer.diskStorage({&#xa;destination: (req, file, cb) =&gt; {&#xa;cb(null, &#39;uploads/images&#39;);&#xa;&#xa;filename: (req, file, cb) =&gt; {&#xa;const ext = MIME_TYPE_MAP(file.mimetype);&#xa;const generatedFileName = uuid() + &#39;.&#39; + ext;&#xa;cb(null, generatedFileName);&#xa;&#xa;console.log(`\nGenerated file name: ${generatedFileName}`);&#xa;console.log(`\nStorage location: backend/uploads/images/${generatedFileName}\n`);&#xa;&#xa;}&#xa;}),&#xa;&#xa;fileFilter: (req, file, cb) =&gt; {&#xa;// Filter outby mapping mime type for file.ext&#xa;const isValid = !!MIME_TYPE_MAP[file.mimetype]; // boolean&#xa;&#xa;let error = isValid ? null : new Error(`\nInvalid MIME_TYPE for file!\n`);&#xa;&#xa;if (!isValid) {&#xa;console.log(`\nInvalid file extension for: ${file.originalname}`);&#xa;console.log(`\nAttempted MIME type: ${file.mimetype}\n`);&#xa;}&#xa;&#xa;cb(error, isValid);&#xa;}&#xa;});&#xa;&#xa;module.exports = fileUpload;" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#00FFFF" vertex="1" parent="1">
-          <mxGeometry x="778.75" y="770" width="328" height="814" as="geometry" />
+          <mxGeometry x="778.75" y="1050" width="328" height="814" as="geometry" />
         </mxCell>
         <mxCell id="FD2r_MFtYYKVxHmnxgQD-2" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="626.5" y="806.29" as="sourcePoint" />
-            <mxPoint x="776.5" y="806.29" as="targetPoint" />
+            <mxPoint x="626.5" y="1086.29" as="sourcePoint" />
+            <mxPoint x="776.5" y="1086.29" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="FD2r_MFtYYKVxHmnxgQD-3" value="backend/middleware/&lt;div&gt;file-upload.js&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="826.75" y="706" width="232" height="74" as="geometry" />
+          <mxGeometry x="826.75" y="986" width="232" height="74" as="geometry" />
         </mxCell>
         <mxCell id="FD2r_MFtYYKVxHmnxgQD-4" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="484.4800000000001" y="1837" as="sourcePoint" />
-            <mxPoint x="484.47999999999996" y="1899" as="targetPoint" />
+            <mxPoint x="484.4800000000001" y="2117" as="sourcePoint" />
+            <mxPoint x="484.47999999999996" y="2179" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="524.98" y="1860" />
+              <mxPoint x="524.98" y="2140" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1857,25 +1863,25 @@
         </mxCell>
         <mxCell id="3r2GB4b1Bx5ywnSpiSvi-11" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="484.4800000000001" y="2390.5" as="sourcePoint" />
-            <mxPoint x="484.47999999999996" y="2452.5" as="targetPoint" />
+            <mxPoint x="484.4800000000001" y="2670.5" as="sourcePoint" />
+            <mxPoint x="484.47999999999996" y="2732.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="524.9800000000001" y="2413.5" />
+              <mxPoint x="524.9800000000001" y="2693.5" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="3r2GB4b1Bx5ywnSpiSvi-12" value="MongoDB Atlas" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fontColor=#ffffff;;fillColor=#234F1E" vertex="1" parent="1">
-          <mxGeometry x="346.5" y="2454.5" width="280" height="75" as="geometry" />
+          <mxGeometry x="346.5" y="2734.5" width="280" height="75" as="geometry" />
         </mxCell>
         <mxCell id="3r2GB4b1Bx5ywnSpiSvi-13" value="MongoDB:&#xa;&#xa;const { MongoClient } = require(&#39;mongodb&#39;);&#xa;&#xa;const client = new MongoClient(connection_string, { useNewUrlParser: true, useUnifiedTopology: true });&#xa;&#xa;const { title, description, address, creator } = req.body;&#xa;&#xa;let coordinates;&#xa;&#xa;try {&#xa;coordinates = await getCoordsForAddress(address);&#xa;} catch (err) {&#xa;return next(new HttpError(&#39;Failed to find location for the provided address.&#39;, 500));&#xa;&#xa;console.log(`\nCoordinates:\n`, coordinates);&#xa;&#xa;let newPlace = {&#xa;title,&#xa;description,&#xa;address,&#xa;location: coordinates,&#xa;image: req.file.path,&#xa;creator: new mongodb.ObjectId(creator)&#xa;};&#xa;&#xa;try {&#xa;const user = await db.users.findOne(&#xa;{ _id: new mongodb.ObjectId(creator) }&#xa;);&#xa;&#xa;if (!user) {&#xa;await client.close();&#xa;return next(new HttpError(&#39;Could not find user for provided id.&#39;, 404));&#xa;}&#xa;&#xa;// Start a MongoDB transaction&#xa;const session = client.startSession();&#xa;await session.startTransaction();&#xa;&#xa;// Insert the new place into db.places&#xa;const placeResult = await db.places.insertOne(newPlace, { session });&#xa;&#xa;// Update user&#39;s places[]&#xa;const updateResult = await db.users.updateOne(&#xa;{ _id: new mongodb.ObjectId(creator) },&#xa;{ $push: { places: placeResult.insertedId } },&#xa;{ session }&#xa;);&#xa;&#xa;await session.commitTransaction();&#xa;session.endSession();&#xa;&#xa;res.status(201).json({ place: newPlace });&#xa;&#xa;} catch (err) {&#xa;console.error(err.message);&#xa;await session.abortTransaction();&#xa;session.endSession();&#xa;&#xa;return next(new HttpError(&#39;Creating place failed, please try again.&#39;, 500));&#xa;&#xa;} finally {&#xa;await client.close();&#xa;}&#xa;&#xa;};" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fontColor=#ffffff;;fillColor=#234F1E" vertex="1" parent="1">
-          <mxGeometry x="346.5" y="2597.5" width="280" height="1138.5" as="geometry" />
+          <mxGeometry x="346.5" y="2877.5" width="280" height="1138.5" as="geometry" />
         </mxCell>
         <mxCell id="3r2GB4b1Bx5ywnSpiSvi-14" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="482.98" y="2529.5" as="sourcePoint" />
-            <mxPoint x="482.9799999999999" y="2591.5" as="targetPoint" />
+            <mxPoint x="482.98" y="2809.5" as="sourcePoint" />
+            <mxPoint x="482.9799999999999" y="2871.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="523.48" y="2552.5" />
+              <mxPoint x="523.48" y="2832.5" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1887,18 +1893,18 @@
         </mxCell>
         <mxCell id="gzt6h3wa-Ze1dIguBexa-99" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="488.80000000000007" y="3738" as="sourcePoint" />
-            <mxPoint x="488.79999999999995" y="3800" as="targetPoint" />
+            <mxPoint x="488.80000000000007" y="4018" as="sourcePoint" />
+            <mxPoint x="488.79999999999995" y="4080" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="529.3000000000001" y="3761" />
+              <mxPoint x="529.3000000000001" y="4041" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="gzt6h3wa-Ze1dIguBexa-100" value="backend/controllers/&lt;div&gt;places-controllers.js&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="148" y="3924" width="232" height="74" as="geometry" />
+          <mxGeometry x="148" y="4204" width="232" height="74" as="geometry" />
         </mxCell>
         <mxCell id="gzt6h3wa-Ze1dIguBexa-101" value="exports.createPlace = async (req, res, next) =&gt; {}&#xa;&#xa;const { title, description, address, creator } = req.body;&#xa;&#xa;// MongoDB operation...&#xa;&#xa;res.status(201).json({ &#xa;success: true, &#xa;status: { code: 201 },&#xa;place: createdPlace,&#xa;message: `Place created` &#xa;});&#xa;);" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#00FFFF" vertex="1" parent="1">
-          <mxGeometry x="346.5" y="3804" width="280" height="314" as="geometry" />
+          <mxGeometry x="346.5" y="4084" width="280" height="314" as="geometry" />
         </mxCell>
         <mxCell id="gzt6h3wa-Ze1dIguBexa-102" value="&lt;NewPlace /&gt;&#xa;&#xa;placeSubmitHandler" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFF00" vertex="1" parent="1">
           <mxGeometry x="346" y="-134" width="278.5" height="60" as="geometry" />
@@ -1939,41 +1945,29 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hBAyRuKx2rYqf2ddzUmR-10" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#028090;fontSize=12;fontColor=#E4FDE1;startSize=8;endSize=8;fillColor=#F45B69;" edge="1" parent="1" source="hBAyRuKx2rYqf2ddzUmR-6" target="9zGyPfN90MDmdh2ddBzr-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="hBAyRuKx2rYqf2ddzUmR-6" value="sendRequest&#xa;&#xa;axios.post(url, {&#xa;method: &#39;POST&#39;,&#xa;body: formData // Binary Data&#xa;}&#xa;" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFF00" vertex="1" parent="1">
+        <mxCell id="hBAyRuKx2rYqf2ddzUmR-6" value="await sendRequest(&#xa;fetchUrl,&#xa;&#39;POST&#39;,&#xa;formData,&#xa;// JWT Authorization Header&#xa;{&#xa;Authorization: `Bearer ${auth.token}`&#xa;}" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFF00" vertex="1" parent="1">
           <mxGeometry x="346" y="131" width="278.5" height="175" as="geometry" />
         </mxCell>
         <mxCell id="hBAyRuKx2rYqf2ddzUmR-7" value="To Backend&lt;div&gt;http://localhost:3011/&lt;div&gt;api/places&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="151" y="181.5" width="232" height="74" as="geometry" />
         </mxCell>
         <mxCell id="hBAyRuKx2rYqf2ddzUmR-8" value="POST" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="309" y="299" width="232" height="74" as="geometry" />
-        </mxCell>
-        <mxCell id="hBAyRuKx2rYqf2ddzUmR-9" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;" edge="1" parent="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="482.9800000000001" y="306" as="sourcePoint" />
-            <mxPoint x="482.97999999999996" y="368" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="523.48" y="329" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry x="332" y="296" width="232" height="74" as="geometry" />
         </mxCell>
         <mxCell id="oTvbt8enNjgXWSAPVlyY-1" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="486.83000000000004" y="4119" as="sourcePoint" />
-            <mxPoint x="486.8299999999999" y="4181" as="targetPoint" />
+            <mxPoint x="486.83000000000004" y="4399" as="sourcePoint" />
+            <mxPoint x="486.8299999999999" y="4461" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="527.33" y="4142" />
+              <mxPoint x="527.33" y="4422" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="oTvbt8enNjgXWSAPVlyY-2" value="&lt;App /&gt;" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFF00" vertex="1" parent="1">
-          <mxGeometry x="347.5" y="4183" width="280" height="54" as="geometry" />
+          <mxGeometry x="347.5" y="4463" width="280" height="54" as="geometry" />
         </mxCell>
         <mxCell id="oTvbt8enNjgXWSAPVlyY-3" value="http://localhost:3020" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="169" y="4173" width="203" height="74" as="geometry" />
+          <mxGeometry x="169" y="4453" width="203" height="74" as="geometry" />
         </mxCell>
         <mxCell id="oTvbt8enNjgXWSAPVlyY-4" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
@@ -2543,11 +2537,75 @@
         <mxCell id="LWeolHifm1ltcingEa9k-208" value="Verify req.headers.authorization" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#00FFFF" vertex="1" parent="1">
           <mxGeometry x="1930.25" y="1532" width="280" height="75" as="geometry" />
         </mxCell>
+        <mxCell id="wMtrE0Gp8wJK1dKaorNG-1" value="Open to Public" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-439" y="-330" width="203" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="wMtrE0Gp8wJK1dKaorNG-2" value="Open to Public" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-967" y="-330.5" width="203" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="wMtrE0Gp8wJK1dKaorNG-3" value="const formData = new FormData();&#xa;&#xa;formData.append(&#39;title&#39;, formState.inputs.title.value);&#xa;&#xa;formData.append(&#39;description&#39;, formState.inputs.description.value);&#xa;&#xa;formData.append(&#39;address&#39;, formState.inputs.address.value);&#xa;&#xa;formData.append(&#39;image&#39;, formState.inputs.image.value);&#xa;&#xa;for (let [key, value] of formData.entries()) {&#xa;console.log(`\nformData:\n`, key, value);&#xa;}&#xa;&#xa;console.log(`\nAttaching auth.token from &lt;AuthContext /&gt;:\n`, auth.token, `\n`);&#xa;console.log(`\n\n, `Bearer ${auth.token}`, `\n\n`);&#xa;" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFF00" vertex="1" parent="1">
+          <mxGeometry x="778.75" y="-134" width="278.5" height="335" as="geometry" />
+        </mxCell>
+        <mxCell id="wMtrE0Gp8wJK1dKaorNG-4" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="625.25" y="-104.57000000000005" as="sourcePoint" />
+            <mxPoint x="775.25" y="-104.57000000000005" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wMtrE0Gp8wJK1dKaorNG-5" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="482.9800000000001" y="306" as="sourcePoint" />
+            <mxPoint x="482.97999999999996" y="368" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="523.48" y="329" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wMtrE0Gp8wJK1dKaorNG-6" value="frontend/src/&lt;div&gt;places/pages/&lt;/div&gt;&lt;div&gt;NewPlace.jsx&lt;/div&gt;&lt;div&gt;placeSubmitHandler&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="816.5" y="-213" width="203" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="wMtrE0Gp8wJK1dKaorNG-7" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="484.4200000000001" y="433" as="sourcePoint" />
+            <mxPoint x="484.4200000000001" y="495" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="524.9200000000001" y="456" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wMtrE0Gp8wJK1dKaorNG-8" value="Express JWT middleware" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#00FFFF" vertex="1" parent="1">
+          <mxGeometry x="344.25" y="497" width="280" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="wMtrE0Gp8wJK1dKaorNG-9" value="backend/middleware/&lt;div&gt;check-auth.js&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="589.75" y="501" width="232" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="wMtrE0Gp8wJK1dKaorNG-10" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="485.1300000000001" y="572" as="sourcePoint" />
+            <mxPoint x="485.1300000000001" y="634" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="525.6300000000001" y="595" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wMtrE0Gp8wJK1dKaorNG-11" value="Verify req.headers.authorization" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#00FFFF" vertex="1" parent="1">
+          <mxGeometry x="344.25" y="636" width="280" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="wMtrE0Gp8wJK1dKaorNG-12" value="Restricted" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="333" y="427" width="203" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="-hoXd7I_eh0qcuIPPmk6-1" value="Restricted" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="1320" width="232" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="-hoXd7I_eh0qcuIPPmk6-2" value="Restricted" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1905.5" y="1320" width="232" height="74" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="xuWxuRfhrYPXcvzbM7o7" name="App3-UserPlaces">
-    <mxGraphModel dx="2263" dy="1901" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3326" dy="3003" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3223,14 +3281,14 @@
           <mxGeometry x="-181" y="2979" width="232" height="74" as="geometry" />
         </mxCell>
         <mxCell id="_3s8ewzFP5S8opDUMHp4-3" value="Express REST API" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#3d3de0;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="323.75" y="771" width="278.75" height="60" as="geometry" />
+          <mxGeometry x="323.75" y="773" width="278.75" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_3s8ewzFP5S8opDUMHp4-4" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="468.1700000000001" y="831" as="sourcePoint" />
-            <mxPoint x="468.16999999999996" y="893" as="targetPoint" />
+            <mxPoint x="468.1700000000001" y="835" as="sourcePoint" />
+            <mxPoint x="468.16999999999996" y="897" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="508.6700000000001" y="854" />
+              <mxPoint x="508.6700000000001" y="858" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -3332,12 +3390,12 @@
         <mxCell id="_3s8ewzFP5S8opDUMHp4-22" value="backend/models/&lt;div&gt;place.js&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="146" y="2543" width="232" height="74" as="geometry" />
         </mxCell>
-        <mxCell id="_3s8ewzFP5S8opDUMHp4-23" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;" edge="1" parent="1">
+        <mxCell id="_3s8ewzFP5S8opDUMHp4-23" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;exitX=0.513;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4C85BzcviHvWqAm2jSAX-35">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="466.5800000000001" y="705" as="sourcePoint" />
-            <mxPoint x="466.58" y="767" as="targetPoint" />
+            <mxPoint x="466.5800000000001" y="710" as="sourcePoint" />
+            <mxPoint x="466.58" y="772" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="507.0800000000001" y="728" />
+              <mxPoint x="507.0800000000001" y="733" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -3737,6 +3795,12 @@
         </mxCell>
         <mxCell id="DIvt_7XgFenuo8mJpTUd-3" value="backend/middleware/&lt;div&gt;check-auth.js&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="128.5" y="898" width="232" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="hS13ir81Llodbpi52jtB-1" value="Restricted" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="302" y="826.5" width="232" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="hS13ir81Llodbpi52jtB-2" value="Restricted" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-437" y="829" width="232" height="74" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
